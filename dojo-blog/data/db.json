@@ -1,0 +1,28 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "author": "Muano",
+            "title": "React Tutorial",
+            "body": "This is the body of the blog"
+        },
+        {
+            "id": 2,
+            "author": "Makhokha",
+            "title": "Coding with Spring and Spring Boot",
+            "body": "This is the body of the blog"
+        },
+        {
+            "id": 3,
+            "author": "Ano",
+            "title": "Andriod Studio",
+            "body": "This is the body of the blog"
+        },
+        {
+            "id": 4,
+            "author": "Khokhas",
+            "title": "Penetration Testing with the Master",
+            "body": "This is the body of the blog"
+        }
+    ]
+}
