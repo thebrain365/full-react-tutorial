@@ -1,11 +1,12 @@
-import { tab } from "@testing-library/user-event/dist/tab";
 import { useState } from "react";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const Create = () => {
     const [title, setTitle] = useState("");
     const [body, setBody] = useState("");
     const [author, setAuthor] = useState("muano");
     const [isPending, setIsPending] = useState(false);
+    const history = useHistory();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -23,6 +24,7 @@ const Create = () => {
             .then(() => {
                 console.log("Blog has been added");
                 setIsPending(false);
+                history.push("/");
             })
         }, 1000)
     }

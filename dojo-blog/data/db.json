@@ -25,16 +25,16 @@
       "body": "This is the body of the blog"
     },
     {
-      "id": "1093",
-      "title": "Data Science Witch",
-      "body": "This is the body of the blog",
-      "author": "makhokha"
-    },
-    {
       "id": "9d52",
       "title": "Machine Learning",
       "body": "This is the body of the blog",
       "author": "muano"
+    },
+    {
+      "id": "b83d",
+      "title": "Python by Mak",
+      "body": "This is the body of the blog",
+      "author": "makhokha"
     }
   ]
 }
